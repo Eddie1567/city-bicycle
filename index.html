@@ -21,13 +21,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/fevicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/fevicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/fevicon/favicon-16x16.png">
+	<link rel="manifest" href="/fevicon/site.webmanifest">
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,900" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 </head>
 
-<body>
+<body onload="myFunction()">
+	 <!-- Pre-loader -->
+	 <div id="loader">
+	 </div>
 	<!--/banner-->
 	<div class="banner" id="home">
 		<!-- header -->
@@ -850,6 +857,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 
 		});
+
+			// laoder
+        var preloader = document.getElementById('loader');
+
+        function myFunction(){
+            preloader.style.display = 'none';     
+        }
+    
+
+
 	</script>
 	<a href="#home" class="scroll" id="toTop" style="display: block;">
 		<span id="toTopHover" style="opacity: 1;"> </span>
