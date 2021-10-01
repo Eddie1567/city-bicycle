@@ -1,6 +1,7 @@
 ![alt-text](https://github.com/ZiaXDev/city-bicycle/blob/master/images/Loading.gif)
 
-### Demo of the website : https://citybicyle.netlify.app/
+### Demo : https://citybicyle.netlify.com/
+
 
 
 ## Tech used to build the entire web Design
